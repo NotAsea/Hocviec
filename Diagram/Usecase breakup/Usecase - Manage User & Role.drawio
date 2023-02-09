@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T02:38:53.615Z" agent="5.0 (X11)" version="20.8.18" etag="1QmqhtZoZ1MVYZHxm4NT" type="github"><diagram name="Page-1" id="Td9DvjWAz3Jp3ax9RV_q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-09T03:04:39.473Z" agent="5.0 (X11)" etag="C8agdq_KkabcPyns7ql0" version="20.8.18" type="github">
+  <diagram name="Page-1" id="Td9DvjWAz3Jp3ax9RV_q">
+    <mxGraphModel dx="957" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a5rsDODHIw3btNR7FclN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="430" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-2" value="Usecase - Manage User &amp;amp; Role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="261" y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="a5rsDODHIw3btNR7FclN-6" target="a5rsDODHIw3btNR7FclN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-6" value="&lt;div&gt;Admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="60" y="255" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-7" value="Mangage User &amp;amp; Role" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="210" y="245" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-8" value="extends" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="a5rsDODHIw3btNR7FclN-9" target="a5rsDODHIw3btNR7FclN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-9" value="&lt;div&gt;Manage User&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-12" value="extends" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="a5rsDODHIw3btNR7FclN-13" target="a5rsDODHIw3btNR7FclN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5rsDODHIw3btNR7FclN-13" value="&lt;div&gt;Manage Role&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
