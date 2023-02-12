@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T01:26:28.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.18" etag="KSeBDZd1jKlK-dodaK4O" type="github"><diagram name="Page-1" id="ZYRxZnoEU7sKClfm8xYB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-12T01:34:58.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="fJdlnoS6ejY4g2_qsydp" version="20.8.18" type="github">
+  <diagram name="Page-1" id="ZYRxZnoEU7sKClfm8xYB">
+    <mxGraphModel dx="1050" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-1" value="User" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="910" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-2" value="choose upload avatar" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-1">
+          <mxGeometry x="80" y="70" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-1">
+          <mxGeometry x="860" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-18" value="User choose Image" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-1">
+          <mxGeometry x="280" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-4" value="ProfileController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="910" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-5" value="Display User new Avatar" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-4">
+          <mxGeometry x="770" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-7" value="Display Upload form and as for image in user local machine" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-4">
+          <mxGeometry x="50" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="_K5BVn4xBzslbHdUmkHX-4" source="_K5BVn4xBzslbHdUmkHX-8" target="_K5BVn4xBzslbHdUmkHX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-8" value="Check image" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-4">
+          <mxGeometry x="280" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="_K5BVn4xBzslbHdUmkHX-4" source="_K5BVn4xBzslbHdUmkHX-19" target="_K5BVn4xBzslbHdUmkHX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-28" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="_K5BVn4xBzslbHdUmkHX-4" source="_K5BVn4xBzslbHdUmkHX-19" target="_K5BVn4xBzslbHdUmkHX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-19" value="Has chosen any image?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-4">
+          <mxGeometry x="290" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-20" value="Promp User has not chosen an image" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-4">
+          <mxGeometry x="600" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-29" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="_K5BVn4xBzslbHdUmkHX-4" source="_K5BVn4xBzslbHdUmkHX-27" target="_K5BVn4xBzslbHdUmkHX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="_K5BVn4xBzslbHdUmkHX-4" source="_K5BVn4xBzslbHdUmkHX-27" target="_K5BVn4xBzslbHdUmkHX-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="330" />
+              <mxPoint x="830" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-32" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_K5BVn4xBzslbHdUmkHX-31">
+          <mxGeometry x="-0.1728" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-27" value="Is Image format support?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="_K5BVn4xBzslbHdUmkHX-4">
+          <mxGeometry x="100" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="_K5BVn4xBzslbHdUmkHX-5" target="_K5BVn4xBzslbHdUmkHX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="_K5BVn4xBzslbHdUmkHX-2" target="_K5BVn4xBzslbHdUmkHX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-15" value="Upload Avatar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_K5BVn4xBzslbHdUmkHX-7" target="_K5BVn4xBzslbHdUmkHX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_K5BVn4xBzslbHdUmkHX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_K5BVn4xBzslbHdUmkHX-18" target="_K5BVn4xBzslbHdUmkHX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
