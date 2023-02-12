@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T01:45:20.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="lMWEAIcveTTXRRrJ_HQ_" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T01:47:03.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_G0wp9bWHQDg2Kf_za6n" version="20.8.18" type="github">
   <diagram name="Page-1" id="VwtbdxvzcMwx3TZho54g">
     <mxGraphModel dx="1050" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,6 +54,9 @@
         </mxCell>
         <mxCell id="MsljBTPrdHte6thjRBzl-21" value="has any field got changed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="MsljBTPrdHte6thjRBzl-4">
           <mxGeometry x="150" y="110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MsljBTPrdHte6thjRBzl-28" value="note: We treat user deleted some/all field as non field change" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="MsljBTPrdHte6thjRBzl-4">
+          <mxGeometry x="250" y="80" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MsljBTPrdHte6thjRBzl-9" value="UserController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="590" width="910" height="150" as="geometry" />
