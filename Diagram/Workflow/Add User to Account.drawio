@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T07:12:21.969Z" agent="5.0 (X11)" version="20.8.18" etag="DfaIW6wNeyoFHDZUKoN5" type="github"><diagram name="Page-1" id="FZAVmXENhpGMsURV8CrD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-13T07:28:14.791Z" agent="5.0 (X11)" etag="JMzoujYzP8ukgOe13P7m" version="20.8.18" type="github">
+  <diagram name="Page-1" id="FZAVmXENhpGMsURV8CrD">
+    <mxGraphModel dx="1144" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-1" value="Admin" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="910" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-2" value="Choose add User" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-1">
+          <mxGeometry x="80" y="70" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-1">
+          <mxGeometry x="860" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-21" value="choose one or some user" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-1">
+          <mxGeometry x="280" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-4" value="AccountManagementController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="910" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-5" value="Display Account with User" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-4">
+          <mxGeometry x="770" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-18" value="Display User List" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-4">
+          <mxGeometry x="280" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-6" value="AccountController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="910" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="n9edrb6hzlzPx-2Td8pM-6" source="n9edrb6hzlzPx-2Td8pM-8" target="n9edrb6hzlzPx-2Td8pM-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="65" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-8" value="Add those Users to User_to_Account DB " style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-6">
+          <mxGeometry x="395" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-9" value="Send back  User List owff Account" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-6">
+          <mxGeometry x="590" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-24" value="note: if representative mark &quot;isrepresentative&quot; true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-6">
+          <mxGeometry x="360" y="130" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="n9edrb6hzlzPx-2Td8pM-5" target="n9edrb6hzlzPx-2Td8pM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-11" value="Add User to Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.36;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="n9edrb6hzlzPx-2Td8pM-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="n9edrb6hzlzPx-2Td8pM-2" target="n9edrb6hzlzPx-2Td8pM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-14" value="UserController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="910" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="n9edrb6hzlzPx-2Td8pM-14" source="n9edrb6hzlzPx-2Td8pM-16" target="n9edrb6hzlzPx-2Td8pM-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="65" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-16" value="Query User with status Activating" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-14">
+          <mxGeometry x="150" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-17" value="Send back User list" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="n9edrb6hzlzPx-2Td8pM-14">
+          <mxGeometry x="350" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="n9edrb6hzlzPx-2Td8pM-17" target="n9edrb6hzlzPx-2Td8pM-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="590" />
+              <mxPoint x="372" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-20" value="note: there&#39;re two types of  user in account &quot;representative&quot; and &quot;with access&quot;. But their logic are largely same so we treat as one" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="95" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="n9edrb6hzlzPx-2Td8pM-18" target="n9edrb6hzlzPx-2Td8pM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n9edrb6hzlzPx-2Td8pM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="n9edrb6hzlzPx-2Td8pM-21" target="n9edrb6hzlzPx-2Td8pM-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
