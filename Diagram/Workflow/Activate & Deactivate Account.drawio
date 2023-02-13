@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T07:30:37.843Z" agent="5.0 (X11)" version="20.8.18" etag="EPTLlA9ekdzg8UTUFPMl" type="github"><diagram name="Page-1" id="ZVHwB_2-QM-X8pNNjGKv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-13T07:31:59.568Z" agent="5.0 (X11)" etag="jaiASlqriWq--hDhXJoe" version="20.8.18" type="github">
+  <diagram name="Page-1" id="ZVHwB_2-QM-X8pNNjGKv">
+    <mxGraphModel dx="1144" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-1" value="Admin" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="910" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-2" value="choose a User Profile" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-1">
+          <mxGeometry x="90" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-1">
+          <mxGeometry x="860" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-4" value="Click revert Account status" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-1">
+          <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-6" value="Note: revert here mean activating -&amp;gt; deactivated and vice versa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-1">
+          <mxGeometry x="380" y="65" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-7" value="ProfileController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="910" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-8" value="Update Account profile with new status" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-7">
+          <mxGeometry x="770" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-9" value="Display Account Profile" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-7">
+          <mxGeometry x="50" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-10" value="UserController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="910" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-11" value="Revert Account status" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="z3NdWrhZ5yllbA3i4Mgm-10">
+          <mxGeometry x="430" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="z3NdWrhZ5yllbA3i4Mgm-8" target="z3NdWrhZ5yllbA3i4Mgm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="z3NdWrhZ5yllbA3i4Mgm-2" target="z3NdWrhZ5yllbA3i4Mgm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-14" value="Activate/Deactivate Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z3NdWrhZ5yllbA3i4Mgm-9" target="z3NdWrhZ5yllbA3i4Mgm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="z3NdWrhZ5yllbA3i4Mgm-4" target="z3NdWrhZ5yllbA3i4Mgm-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="360" />
+              <mxPoint x="520" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3NdWrhZ5yllbA3i4Mgm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="z3NdWrhZ5yllbA3i4Mgm-11" target="z3NdWrhZ5yllbA3i4Mgm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
