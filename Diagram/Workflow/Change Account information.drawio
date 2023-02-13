@@ -1,1 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T07:41:20.451Z" agent="5.0 (X11)" version="20.8.18" etag="5o-1upBRTyXOuRVKY7lk" type="github"><diagram name="Page-1" id="SxbUrZlpCaTH8dVloojx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-13T07:44:57.772Z" agent="5.0 (X11)" etag="36yMln3HLirPxlYzyn7y" version="20.8.18" type="github">
+  <diagram name="Page-1" id="SxbUrZlpCaTH8dVloojx">
+    <mxGraphModel dx="1144" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-1" value="Account" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="910" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-2" value="Admin change and click save " style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-1">
+          <mxGeometry x="180" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-1">
+          <mxGeometry x="860" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-4" value="AccountManagementController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="910" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-5" value="Display Account Information" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-4">
+          <mxGeometry x="770" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-6" value="Check field" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-4">
+          <mxGeometry x="50" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-7" value="Send Request with new Account Information" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-4">
+          <mxGeometry x="440" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IDWhJaC4rV8hkQjvVqww-4" source="IDWhJaC4rV8hkQjvVqww-6" target="IDWhJaC4rV8hkQjvVqww-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="IDWhJaC4rV8hkQjvVqww-4" source="IDWhJaC4rV8hkQjvVqww-13" target="IDWhJaC4rV8hkQjvVqww-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="260" />
+              <mxPoint x="320" y="260" />
+              <mxPoint x="320" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-10" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IDWhJaC4rV8hkQjvVqww-9">
+          <mxGeometry x="0.0133" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="IDWhJaC4rV8hkQjvVqww-4" source="IDWhJaC4rV8hkQjvVqww-13" target="IDWhJaC4rV8hkQjvVqww-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IDWhJaC4rV8hkQjvVqww-11">
+          <mxGeometry x="-0.5305" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-13" value="has any field got changed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-4">
+          <mxGeometry x="150" y="110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-14" value="note: We treat Admin deleted some/all field as no field change" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-4">
+          <mxGeometry x="250" y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-15" value="AccountController" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="910" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-16" value="Send Back Account Information" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-15">
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="IDWhJaC4rV8hkQjvVqww-15" source="IDWhJaC4rV8hkQjvVqww-18" target="IDWhJaC4rV8hkQjvVqww-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-18" value="Update Account information in DB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="IDWhJaC4rV8hkQjvVqww-15">
+          <mxGeometry x="140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="IDWhJaC4rV8hkQjvVqww-5" target="IDWhJaC4rV8hkQjvVqww-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="IDWhJaC4rV8hkQjvVqww-2" target="IDWhJaC4rV8hkQjvVqww-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-21" value="Change Account Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.36;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="IDWhJaC4rV8hkQjvVqww-16" target="IDWhJaC4rV8hkQjvVqww-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDWhJaC4rV8hkQjvVqww-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="IDWhJaC4rV8hkQjvVqww-7" target="IDWhJaC4rV8hkQjvVqww-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="570" />
+              <mxPoint x="240" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
