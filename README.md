@@ -1,2 +1,2 @@
 # Project Quản lý User
-Đây là project Học việc
+Đây là Diagram cho project
